@@ -11,21 +11,21 @@ A NextJS-Django stack built on Docker and hosted on Cybera. The frontend will be
 ## UML Class Diagram
 
 
-[![UML](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
+![UML](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
 
 ## Sequence Diagrams
 
 
-[![Sequence](https://github.com/rahuluniv/EduBest/blob/main/images/sequence_diagram.png)
+![Sequence](https://github.com/rahuluniv/EduBest/blob/main/images/sequence_diagram.png)
 
 ##  Mind Diagram
 
 
-[![Mind](https://github.com/rahuluniv/EduBest/blob/main/images/diagram.png)
+![Mind](https://github.com/rahuluniv/EduBest/blob/main/images/diagram.png)
 
 ## High-Fidelity User interface
 
-[![High-Fidelity User interface]()]()
+![High-Fidelity User interface]()]()
 
 ## Technology List
 
