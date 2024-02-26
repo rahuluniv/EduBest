@@ -12,7 +12,7 @@ A NextJS-Django stack built on Docker and hosted on Cybera. The frontend will be
 
 
 
-[![UML][(https://user-images.githubusercontent.com/34993025/196001244-f85e81a4-945f-4d51-bca5-6fc24089e3cb.png)](https://user-images.githubusercontent.com/34993025/196001244-f85e81a4-945f-4d51-bca5-6fc24089e3cb.png)](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
+[![UML](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
 
 ## Sequence Diagrams
 
