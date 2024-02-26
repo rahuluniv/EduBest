@@ -18,9 +18,14 @@ A NextJS-Django stack built on Docker and hosted on Cybera. The frontend will be
 
 [![Sequence](https://github.com/rahuluniv/EduBest/blob/main/images/sequence_diagram.png)
 
+##  Mind Diagram
+
+
+[![Mind](https://github.com/rahuluniv/EduBest/blob/main/images/diagram.png)
+
 ## High-Fidelity User interface
 
-[![Low-Fidelity User interface2]()]()
+[![High-Fidelity User interface]()]()
 
 ## Technology List
 
