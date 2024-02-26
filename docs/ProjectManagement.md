@@ -1,7 +1,7 @@
 # Project Management
 ## Mind Map
 
-![MindMap](https://github.com/rahuluniv/EduBest/blob/main/images/mindmap.png)
+![MindMap](../images/mindmap.png)
 
 ## Project Plan
 
