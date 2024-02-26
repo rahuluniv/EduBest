@@ -1,7 +1,7 @@
 # Project Management
 ## Mind Map
 
-[![MindMap](mindmap.png)
+![MindMap](mindmap.png)
 ## Project Plan
 
 ### Sprint 1: High-Fidelity Prototype Creation
