@@ -1,7 +1,7 @@
 # Database Design
 
-[![UML](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
-[![UML](https://github.com/rahuluniv/EduBest/blob/main/images/database_walk.png)
+![UML](https://github.com/rahuluniv/EduBest/blob/main/images/UML.png)
+![UML](https://github.com/rahuluniv/EduBest/blob/main/images/database_walk.png)
 
 
 ### Database Schema Overview
