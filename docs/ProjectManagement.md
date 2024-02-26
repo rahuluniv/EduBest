@@ -1,6 +1,8 @@
 # Project Management
 ## Mind Map
+
 ![MindMap](https://github.com/rahuluniv/EduBest/blob/main/images/mindmap.png)
+
 ## Project Plan
 
 ### Sprint 1: High-Fidelity Prototype Creation
