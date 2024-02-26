@@ -6,7 +6,7 @@ This page includes a short description of the overall architecture style of the 
 
 A NextJS-Django stack built on Docker and hosted on Cybera. The frontend will be statically built, the django server will be running on a separate container. The server will be running the business and persistence layers. The DB is postgres and will be a docker volume attached to the Django container. In addition emails will be sent through [Sendgrid](https://sendgrid.com/). The frontend will communicate with the backend using REST in JSON (header + body) format. 
 
-![Arch]([https://user-images.githubusercontent.com/34993025/196225758-6a9c2718-0148-4e6e-a7f6-5fc573fcc4e7.png](https://github.com/rahuluniv/EduBest/blob/main/images/arch_diagram.png))
+![Arch]([https://dummyimage.com/600x400/eee/aaa](https://github.com/rahuluniv/EduBest/blob/main/images/arch_diagram.png)){ align=left }
 
 ## UML Class Diagram
 
