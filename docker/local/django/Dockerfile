@@ -5,8 +5,8 @@ RUN mkdir $APP_HOME
 RUN mkdir $APP_HOME/staticfiles
 WORKDIR $APP_HOME
 
-LABEL maintainer='Full House Networks'
-LABEL decription="Development image for Full House Networks"
+LABEL maintainer='RCAT'
+LABEL decription="Development image for RCAT"
 
 ENV PYTHONDONTWRITEBYTECODE 1
 
