@@ -22,9 +22,9 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # path("api/v1/auth/", include("djoser.urls")),
-    # path("api/v1/auth/", include("djoser.urls.jwt")),
-    # path("api/v1/profiles/", include('backend.profiles.urls')),
+    path("api/v1/auth/", include("djoser.urls")),
+    path("api/v1/auth/", include("djoser.urls.jwt")),
+    path("api/v1/accounts/", include('backend.accounts.urls')),
     # path("api/v1/schools/", include("backend.schools.urls")),
     # path("api/v1/assessments/", include("backend.assessments.urls")),
     # path("api/v1/enquiries/", include("backend.enquiries.urls")),
