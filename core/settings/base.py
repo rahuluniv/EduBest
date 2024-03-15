@@ -37,13 +37,14 @@ ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(" ")
 # Application definition
 
 DJANGO_APPS  = [
+    "jazzmin",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "django.contrib.sites",
+    'django.contrib.sites',
 ]
 SITE_ID = 1
 
@@ -58,7 +59,6 @@ LOCAL_APPS = [
 
 THIRD_PARTY_APPS = [
     "rest_framework",
-    'jazzmin',
     "django_filters",
     "phonenumber_field",
     "djoser",
@@ -194,13 +194,13 @@ DJOSER = {
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Full House Networks",
+    "site_title": "RCAT",
 
     # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
     "site_header": "ADMIN PORTAL",
 
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Full House Networks",
+    "site_brand": "RCAT",
 
     # # Logo to use for your site, must be present in static files, used for brand on top left
     # "site_logo": "frontend/public/logo.png",
@@ -221,11 +221,11 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Welcome to the Admin Portal",
 
     # Copyright on the footer
-    "copyright": "Full House Networks",
+    "copyright": "RCAT",
 
     # List of model admins to search from the search bar, search bar omitted if excluded
     # If you want to use a single search field you dont need to use a list, you can use a simple string 
-    "search_model": ["accounts.Account"],
+    "search_model": ["accounts.User"],
 
     # Field name on user model that contains avatar ImageField/URLField/Charfield or a callable that receives the user
     "user_avatar": None,
