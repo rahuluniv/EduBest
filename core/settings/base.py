@@ -48,12 +48,12 @@ DJANGO_APPS  = [
 SITE_ID = 1
 
 LOCAL_APPS = [
-    "common",
-    "accounts",
-    "profiles",
-    "schools",
-    "assessments",
-    "enquiries",
+    "backend.common",
+    "backend.accounts",
+    "backend.profiles",
+    "backend.schools",
+    "backend.assessments",
+    "backend.enquiries",
 ]
 
 THIRD_PARTY_APPS = [
@@ -79,7 +79,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'rcat_project.urls'
+ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
     {
@@ -97,7 +97,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'rcat_project.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database
