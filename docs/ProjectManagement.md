@@ -247,69 +247,71 @@
 ---
 
 ### Sprint Details:
-1. **Sprint 1: Backend Setup and User Authentication**
-   - Initial backend setup using Django framework.
-   - Implementation of user authentication and authorization.
-   - Designing the initial database schema with PostgreSQL.
-   - Total Story Points: 25
 
-2. **Sprint 2: Admin Portal and District Management**
-   - Development of the admin portal for school and district management.
-   - Creation of API endpoints for adding schools and managing districts.
-   - Implementation of functionalities for managing districts and regions.
-   - Total Story Points: 21
+### Sprint 1: Backend Setup and User Authentication
+- Initial backend setup using Django framework.
+- Implementation of user authentication and authorization.
+- Designing the initial database schema with PostgreSQL.
+- **Total Story Points:** 25
 
-3. **Sprint 3: Test and Skill Management**
-   - Management of skills and tests on the platform.
-   - Creation and categorization of skills.
-   - Categorization of test questions.
-   - Total Story Points: 21
+### Sprint 2: Admin Portal and District Management
+- Development of the admin portal for school and district management.
+- Creation of API endpoints for adding schools and managing districts.
+- Implementation of functionalities for managing districts and regions.
+- **Total Story Points:** 21
 
-4. **Sprint 4: Educator Portal and Assessment Creation**
-   - Development of the educator portal for assessment creation.
-   - Implementation of features for selecting test templates and customizing test questions.
-   - Total Story Points: 21
+### Sprint 3: Test and Skill Management
+- Management of skills and tests on the platform.
+- Creation and categorization of skills.
+- Categorization of test questions.
+- **Total Story Points:** 21
 
-5. **Sprint 5: Student Portal and Test Completion**
-   - Creation of the student portal for accessing and completing assessments.
-   - Implementation of functionalities for accessing assigned tests and completing online tests.
-   - Total Story Points: 21
+### Sprint 4: Educator Portal and Assessment Creation
+- Development of the educator portal for assessment creation.
+- Implementation of features for selecting test templates and customizing test questions.
+- **Total Story Points:** 21
 
-6. **Sprint 6: Progress Tracking and Analytics**
-   - Development of functionalities for monitoring student progress over time.
-   - Generation of analytics for class-wide performance.
-   - Identification of areas of improvement.
-   - Total Story Points: 21
+### Sprint 5: Student Portal and Test Completion
+- Creation of the student portal for accessing and completing assessments.
+- Implementation of functionalities for accessing assigned tests and completing online tests.
+- **Total Story Points:** 21
 
-7. **Sprint 7: Deployment and Initial Feedback**
-   - Deployment of the application to the production environment.
-   - Conducting user acceptance testing (UAT).
-   - Gathering feedback from users and stakeholders.
-   - Total Story Points: 21
+### Sprint 6: Progress Tracking and Analytics
+- Development of functionalities for monitoring student progress over time.
+- Generation of analytics for class-wide performance.
+- Identification of areas of improvement.
+- **Total Story Points:** 21
 
-8. **Sprint 8: Iterative Improvements and Enhancements**
-   - Addressing feedback and making necessary adjustments.
-   - Enhancing security measures and performing audits.
-   - Implementing advanced analytics and reporting tools.
-   - Total Story Points: 21
+### Sprint 7: Deployment and Initial Feedback
+- Deployment of the application to the production environment.
+- Conducting user acceptance testing (UAT).
+- Gathering feedback from users and stakeholders.
+- **Total Story Points:** 21
 
-9. **Sprint 9: UI/UX Optimization and DevOps Automation**
-   - Implementing frontend changes based on feedback.
-   - Continuing DevOps tasks for automation.
-   - Preparing for potential scalability challenges.
-   - Total Story Points: 21
+### Sprint 8: Iterative Improvements and Enhancements
+- Addressing feedback and making necessary adjustments.
+- Enhancing security measures and performing audits.
+- Implementing advanced analytics and reporting tools.
+- **Total Story Points:** 21
 
-10. **Sprint 10: Final Polishing and Documentation**
-    - Finalizing frontend changes and optimizations.
-    - Performing thorough testing and bug fixing.
-    - Conducting end-of-year review and planning.
-    - Total Story Points: 21
+### Sprint 9: UI/UX Optimization and DevOps Automation
+- Implementing frontend changes based on feedback.
+- Continuing DevOps tasks for automation.
+- Preparing for potential scalability challenges.
+- **Total Story Points:** 21
 
-11. **Sprint 11: Documentation and Knowledge Transfer**
-    - Preparing documentation for the platform.
-    - Conducting knowledge transfer sessions.
-    - Addressing any remaining tasks and cleanup.
-    - Total Story Points: 21
+### Sprint 10: Final Polishing and Documentation
+- Finalizing frontend changes and optimizations.
+- Performing thorough testing and bug fixing.
+- Conducting end-of-year review and planning.
+- **Total Story Points:** 21
+
+### Sprint 11: Documentation and Knowledge Transfer
+- Preparing documentation for the platform.
+- Conducting knowledge transfer sessions.
+- Addressing any remaining tasks and cleanup.
+- **Total Story Points:** 21
+
 
 ---
 
@@ -352,8 +354,6 @@
 
 ---
  
-**Project Duration:** March 1st - December 31st
-
 ## Milestone 1: July Completion
 
 ### Date: July 31st
