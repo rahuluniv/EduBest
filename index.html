@@ -1,0 +1,1216 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://edu-best.com/">
+      
+      
+      
+        <link rel="next" href="DatabaseDesign/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>EDUBEST</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-requirement" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="EDUBEST" class="md-header__button md-logo" aria-label="EDUBEST" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EDUBEST
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project Requirement
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Project Requirement
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="DatabaseDesign/" class="md-tabs__link">
+        
+  
+    
+  
+  Database Design
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="MeetingMinutes/" class="md-tabs__link">
+        
+  
+    
+  
+  Meeting Minutes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="ProjectManagement/" class="md-tabs__link">
+        
+  
+    
+  
+  Project Management
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="SoftwareDesign/" class="md-tabs__link">
+        
+  
+    
+  
+  Software Design
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Teamwork/" class="md-tabs__link">
+        
+  
+    
+  
+  Teamwork
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="EDUBEST" class="md-nav__button md-logo" aria-label="EDUBEST" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    EDUBEST
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Project Requirement
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Project Requirement
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#document-for-rcat-migration-to-django-and-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document for RCAT Migration to Django and Next.js
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Executive Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Glossary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Stories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Stories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#administrator-portal-rcat-main-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Administrator Portal (RCAT Main Admin)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Administrator Portal (RCAT Main Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phase 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phase 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-story-school-and-district-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: School and District Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-test-and-skill-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: Test and Skill Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#educator-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educator Portal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Educator Portal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phase 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phase 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-story-assessment-creation-and-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: Assessment Creation and Distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-student-progress-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: Student Progress Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student Portal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Student Portal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phase 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phase 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-story-accessing-and-completing-assessments" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: Accessing and Completing Assessments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-tracking-learning-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Story: Tracking Learning Progress
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moscow-prioritization" class="md-nav__link">
+    <span class="md-ellipsis">
+      MoSCoW Prioritization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MoSCoW Prioritization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#must-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Must Have
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Should Have
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#could-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Could Have
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wont-have-at-launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Won't Have (at launch)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend Development
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend Development
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment-and-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deployment and Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#divided-user-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divided User Stories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administrator-portal-rcat-main-admin_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Administrator Portal (RCAT Main Admin)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Administrator Portal (RCAT Main Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#school-and-district-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      School and District Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-and-skill-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test and Skill Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platform-configuration-and-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Platform Configuration and Security
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#educator-portal_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educator Portal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Educator Portal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assessment-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessment Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#student-portal_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student Portal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Student Portal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#engagement-with-assessments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engagement with Assessments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DatabaseDesign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MeetingMinutes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meeting Minutes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ProjectManagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SoftwareDesign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Teamwork/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teamwork
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="project-requirement">Project Requirement</h1>
+<h2 id="document-for-rcat-migration-to-django-and-nextjs">Document for RCAT Migration to Django and Next.js</h2>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>RCAT is transitioning its existing web application infrastructure to a more scalable and modern architecture using Django for the backend and Next.js for the frontend. This migration aims to enhance the platform's performance, improve user experience, and streamline the development process. RCAT provides a comprehensive suite of tools for schools to manage educational content, assessments, and track student progress across various grades and subjects, with a focus on reading comprehension and vocabulary skills.</p>
+<h2 id="project-glossary">Project Glossary</h2>
+<ul>
+<li><strong>Django</strong>: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.</li>
+<li><strong>Next.js</strong>: A React framework for production that provides server-side rendering, static site generation, and more, to ensure fast, scalable, and easy-to-deploy applications.</li>
+<li><strong>Administrator (RCAT Main Admin)</strong>: Users responsible for overseeing and managing the RCAT platform, including schools, districts, regions, and system settings.</li>
+<li><strong>District Administrator</strong>: Users with administrative rights over a specific district, responsible for managing schools and educators within their district.</li>
+<li><strong>Educator/Teacher</strong>: Users who create, manage, and distribute assessments and educational content.</li>
+<li><strong>Student</strong>: Users who participate in assessments and access educational content.</li>
+<li><strong>API</strong>: Application Programming Interface, a set of protocols and tools for building software and applications.</li>
+<li><strong>JWT</strong>: JSON Web Tokens, a method for securely transmitting information between parties as a JSON object.</li>
+</ul>
+<h2 id="user-stories">User Stories</h2>
+<h3 id="administrator-portal-rcat-main-admin">Administrator Portal (RCAT Main Admin)</h3>
+<h4 id="phase-1">Phase 1</h4>
+<h5 id="user-story-school-and-district-management">User Story: School and District Management</h5>
+<blockquote>
+<p>As the RCAT main admin, I want to add schools, whitelist domains, and manage regions and districts to ensure schools can access RCAT efficiently.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Admin can add and manage school profiles, including whitelisting domains.</li>
+<li>Admin can create and organize districts and regions, linking schools appropriately.</li>
+<li>System supports adding district administrators with specific management permissions.</li>
+</ol>
+<h5 id="user-story-test-and-skill-management">User Story: Test and Skill Management</h5>
+<blockquote>
+<p>As the RCAT main admin, I want to manage the skills and tests available on the platform to ensure they meet educational standards and requirements.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Admin can add, modify, or remove skills and categories related to reading comprehension and vocabulary.</li>
+<li>The platform allows for categorization of questions in tests by genres, including informational, narrative, poetry, and tier 2 vocabulary.</li>
+<li>Admin can create and manage a repository of tests, including the ability to add passages, questions, and math problems with a math editor.</li>
+</ol>
+<h3 id="educator-portal">Educator Portal</h3>
+<h4 id="phase-1_1">Phase 1</h4>
+<h5 id="user-story-assessment-creation-and-distribution">User Story: Assessment Creation and Distribution</h5>
+<blockquote>
+<p>As an educator, I want to create assessments from existing tests or create new ones to evaluate my students' progress in specific skills.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Educators can select from a pool of existing tests or create new tests tailored to their classroom needs.</li>
+<li>The test creation interface supports adding various question types, including multiple-choice, fill-in-the-blanks, and math problems.</li>
+<li>Educators can assign tests to students, schedule test availability, and track completion.</li>
+</ol>
+<h5 id="user-story-student-progress-monitoring">User Story: Student Progress Monitoring</h5>
+<blockquote>
+<p>As an educator, I want to monitor my students' progress and performance on tests to provide targeted support and feedback.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Educators have access to detailed reports on student test performances, including scores and skill evaluations.</li>
+<li>The platform provides analytics on class-wide performance trends and individual student progress.</li>
+<li>Educators can identify areas of improvement and strengths, facilitating personalized feedback and support.</li>
+</ol>
+<h3 id="student-portal">Student Portal</h3>
+<h4 id="phase-1_2">Phase 1</h4>
+<h5 id="user-story-accessing-and-completing-assessments">User Story: Accessing and Completing Assessments</h5>
+<blockquote>
+<p>As a student, I want to access and complete assessments assigned to me to demonstrate my understanding and skills.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Students can easily find and access assigned tests within their portal.</li>
+<li>The testing interface is user-friendly, supporting various question types and including a math editor for relevant problems.</li>
+<li>Students receive immediate feedback upon completion, including scores and correct answers for review.</li>
+</ol>
+<h5 id="user-story-tracking-learning-progress">User Story: Tracking Learning Progress</h5>
+<blockquote>
+<p>As a student, I want to track my progress and performance over time to understand my learning growth and areas for improvement.</p>
+</blockquote>
+<p>Acceptance Tests:</p>
+<ol>
+<li>Students have access to a dashboard summarizing their performance on recent tests.</li>
+<li>The platform tracks and displays progress in various skills over time, highlighting strengths and areas for improvement.</li>
+<li>Students can set personal learning goals and monitor their advancement towards these goals.</li>
+</ol>
+<h2 id="moscow-prioritization">MoSCoW Prioritization</h2>
+<h3 id="must-have">Must Have</h3>
+<ol>
+<li>A Django-based backend with RESTful API endpoints for school, district, and test management.</li>
+<li>A Next.js-based frontend with intuitive interfaces for administrators, educators</li>
+</ol>
+<p>, and students.
+3. Secure authentication and authorization processes, including JWT for API access and domain whitelisting for school access.
+4. Comprehensive role management for administrators, district administrators, educators, and students.</p>
+<h3 id="should-have">Should Have</h3>
+<ol>
+<li>Advanced analytics and reporting tools for tracking student progress and performance.</li>
+<li>A math editor for creating and solving math problems within assessments.</li>
+<li>Customizable test creation tools, allowing for a wide range of question types and content.</li>
+</ol>
+<h3 id="could-have">Could Have</h3>
+<ol>
+<li>Integration with external educational resources and content providers.</li>
+<li>Gamification elements for student engagement and motivation.</li>
+<li>Personalized learning recommendations based on student performance and progress.</li>
+</ol>
+<h3 id="wont-have-at-launch">Won't Have (at launch)</h3>
+<ol>
+<li>Real-time collaboration tools for students and educators.</li>
+<li>Blockchain-based credentialing and record-keeping for educational achievements.</li>
+<li>A mobile app version of the platform for enhanced accessibility and engagement.</li>
+</ol>
+<h2 id="technical-resources">Technical Resources</h2>
+<h3 id="backend-development">Backend Development</h3>
+<ul>
+<li><strong>Framework</strong>: Django</li>
+<li><a href="https://docs.djangoproject.com/en/3.2/">Django Documentation</a></li>
+<li><strong>Database</strong>: PostgreSQL</li>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL Documentation</a></li>
+<li><strong>Authentication</strong>: Django Rest Framework SimpleJWT</li>
+<li><a href="https://django-rest-framework-simplejwt.readthedocs.io/en/latest/">DRF SimpleJWT Documentation</a></li>
+</ul>
+<h3 id="frontend-development">Frontend Development</h3>
+<ul>
+<li><strong>Framework</strong>: Next.js</li>
+<li><a href="https://nextjs.org/docs">Next.js Documentation</a></li>
+<li><strong>State Management</strong>: Redux or Context API</li>
+<li><a href="https://redux.js.org/introduction/getting-started">Redux Documentation</a></li>
+<li><a href="https://reactjs.org/docs/context.html">React Context Documentation</a></li>
+<li><strong>Styling</strong>: Tailwind CSS or Styled-Components</li>
+<li><a href="https://tailwindcss.com/docs">Tailwind CSS Documentation</a></li>
+<li><a href="https://styled-components.com/docs">Styled-Components Documentation</a></li>
+</ul>
+<h3 id="deployment-and-operations">Deployment and Operations</h3>
+<ul>
+<li><strong>Cloud Hosting</strong>: AWS or Vercel</li>
+<li><a href="https://aws.amazon.com/documentation/">AWS Documentation</a></li>
+<li><a href="https://vercel.com/docs">Vercel Documentation</a></li>
+<li><strong>CI/CD</strong>: GitHub Actions</li>
+<li><a href="https://docs.github.com/en/actions">GitHub Actions Documentation</a></li>
+</ul>
+<h2 id="divided-user-stories">Divided User Stories</h2>
+<h2 id="administrator-portal-rcat-main-admin_1">Administrator Portal (RCAT Main Admin)</h2>
+<h3 id="school-and-district-management">School and District Management</h3>
+<ol>
+<li>Add New School<ul>
+<li>As an RCAT admin, I can add new schools to the platform to expand its reach and utility.</li>
+</ul>
+</li>
+<li>Whitelist School Domains<ul>
+<li>As an RCAT admin, I can whitelist school domains to ensure secure and exclusive access to the platform.</li>
+</ul>
+</li>
+<li>Create Districts<ul>
+<li>As an RCAT admin, I can create districts, organizing schools within specific geographical or administrative boundaries.</li>
+</ul>
+</li>
+<li>Assign Schools to Districts<ul>
+<li>As an RCAT admin, I can assign schools to their respective districts for better regional management.</li>
+</ul>
+</li>
+<li>Add District Administrator<ul>
+<li>As an RCAT admin, I can add district administrators to delegate management responsibilities within specific districts.</li>
+</ul>
+</li>
+</ol>
+<h3 id="test-and-skill-management">Test and Skill Management</h3>
+<ol>
+<li>Add Skills<ul>
+<li>As an RCAT admin, I can add new skills to the test database to keep the curriculum up-to-date with educational standards.</li>
+</ul>
+</li>
+<li>Edit Skills<ul>
+<li>As an RCAT admin, I can edit existing skills to ensure accuracy and relevancy.</li>
+</ul>
+</li>
+<li>Delete Skills<ul>
+<li>As an RCAT admin, I can delete outdated or irrelevant skills from the platform.</li>
+</ul>
+</li>
+<li>Create Test Templates<ul>
+<li>As an RCAT admin, I can create test templates that educators can use or modify for their assessments.</li>
+</ul>
+</li>
+<li>Categorize Test Questions<ul>
+<li>As an RCAT admin, I can categorize test questions by genre (e.g., informational, narrative) to facilitate targeted assessments.</li>
+</ul>
+</li>
+</ol>
+<h3 id="platform-configuration-and-security">Platform Configuration and Security</h3>
+<ol>
+<li>Configure Test Settings<ul>
+<li>As an RCAT admin, I can configure settings for tests, including time limits and availability windows.</li>
+</ul>
+</li>
+<li>Manage User Roles and Permissions<ul>
+<li>As an RCAT admin, I can manage user roles and permissions to ensure secure access to the platform's features.</li>
+</ul>
+</li>
+<li>Monitor Platform Usage<ul>
+<li>As an RCAT admin, I can monitor platform usage statistics to understand adoption rates and user engagement.</li>
+</ul>
+</li>
+<li>Update Platform Security<ul>
+<li>As an RCAT admin, I can update security protocols to protect user data and ensure compliance with privacy regulations.</li>
+</ul>
+</li>
+<li>Backup and Restore Data<ul>
+<li>As an RCAT admin, I can perform data backup and restoration to prevent data loss and maintain platform integrity.</li>
+</ul>
+</li>
+</ol>
+<h2 id="educator-portal_1">Educator Portal</h2>
+<h3 id="assessment-management">Assessment Management</h3>
+<ol>
+<li>Select Test Template<ul>
+<li>As an educator, I can select from existing test templates to quickly create assessments.</li>
+</ul>
+</li>
+<li>Customize Test Questions<ul>
+<li>As an educator, I can customize test questions, adding or removing items based on my students' needs.</li>
+</ul>
+</li>
+<li>Assign Tests to Students<ul>
+<li>As an educator, I can assign tests to individual students or classes, scheduling them according to the lesson plan.</li>
+</ul>
+</li>
+<li>Review Test Submissions<ul>
+<li>As an educator, I can review test submissions, providing feedback and grades to students.</li>
+</ul>
+</li>
+<li>Track Student Progress<ul>
+<li>As an educator, I can track student progress on assessments over time to identify learning trends and areas for improvement.</li>
+</ul>
+</li>
+</ol>
+<h2 id="student-portal_1">Student Portal</h2>
+<h3 id="engagement-with-assessments">Engagement with Assessments</h3>
+<ol>
+<li>Access Assigned Tests<ul>
+<li>As a student, I can access tests assigned to me, viewing due dates and instructions.</li>
+</ul>
+</li>
+<li>Complete Online Tests<ul>
+<li>As a student, I can complete online tests, using tools like the math editor for specific questions.</li>
+</ul>
+</li>
+<li>View Test Feedback<ul>
+<li>As a student, I can view feedback and grades on completed tests to understand my performance.</li>
+</ul>
+</li>
+<li>Track Personal Learning Progress<ul>
+<li>As a student, I can track my learning progress through a dashboard, viewing my achievements and areas for growth.</li>
+</ul>
+</li>
+<li>Set Personal Learning Goals<ul>
+<li>As a student, I can set personal learning goals and monitor my progress toward achieving them.</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/rahuluniv"  target="_blank" rel="noopener">James Willett</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>
