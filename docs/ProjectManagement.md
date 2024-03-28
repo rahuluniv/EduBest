@@ -247,7 +247,6 @@
 ---
 
 ### Sprint Details:
-
 1. **Sprint 1: Backend Setup and User Authentication**
    - Initial backend setup using Django framework.
    - Implementation of user authentication and authorization.
@@ -351,13 +350,8 @@
 
 **Grand Total Estimated Development Hours: 2427**
 
-
-
 ---
-
-# Project Milestone Document
-
-**Project Name:** RCAT Migration to Django and Next.js  
+ 
 **Project Duration:** March 1st - December 31st
 
 ## Milestone 1: July Completion
