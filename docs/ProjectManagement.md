@@ -352,3 +352,64 @@
 **Grand Total Estimated Development Hours: 2427**
 
 
+
+---
+
+# Project Milestone Document
+
+**Project Name:** RCAT Migration to Django and Next.js  
+**Project Duration:** March 1st - December 31st
+
+## Milestone 1: July Completion
+
+### Date: July 31st
+
+### Objective:
+Successfully launch the foundational aspects of the RCAT platform, including the backend setup, admin portal, educator and student portals, along with the capabilities for assessment creation and test completion.
+
+### Key Deliverables:
+1. Backend infrastructure and initial database schema.
+2. Admin portal for school and district management.
+3. Test and skill management functionalities.
+4. Educator portal for assessment creation.
+5. Student portal for accessing and completing assessments.
+
+### Sprints Included:
+- **Sprint 1:** Backend Setup and User Authentication
+- **Sprint 2:** Admin Portal and District Management
+- **Sprint 3:** Test and Skill Management
+- **Sprint 4:** Educator Portal and Assessment Creation
+- **Sprint 5:** Student Portal and Test Completion
+
+### Total Estimated Development Hours: 1050 Hours
+
+---
+
+## Milestone 2: November Completion
+
+### Date: November 30th
+
+### Objective:
+Enhance the RCAT platform with advanced functionalities including progress tracking, analytics, deployment, iterative improvements, UI/UX optimization, and DevOps automation to ensure a robust, scalable, and user-friendly application.
+
+### Key Deliverables:
+1. Progress tracking and analytics for educators.
+2. Deployment of the application to the production environment.
+3. Iterative improvements based on initial feedback.
+4. UI/UX optimization based on user feedback.
+5. DevOps automation for efficient deployment and scalability.
+
+### Sprints Included:
+- **Sprint 6:** Progress Tracking and Analytics
+- **Sprint 7:** Deployment and Initial Feedback
+- **Sprint 8:** Iterative Improvements and Enhancements
+- **Sprint 9:** UI/UX Optimization and DevOps Automation
+
+### Total Estimated Development Hours: 840 Hours
+
+---
+
+**Note:** Following the November milestone, the project will enter its final phase focused on polishing, documentation, and knowledge transfer to ensure a smooth handover and prepare for future enhancements.
+
+---
+
