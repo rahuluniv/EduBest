@@ -219,9 +219,6 @@
 *Note: This sprint focuses on wrapping up the project by documenting key information and transferring knowledge to relevant teams. It ensures a smooth transition and sets the stage for ongoing support and maintenance.*
 
 ---
-**Project Sprint Report**
-
----
 
 **Project Name:** RCAT Migration to Django and Next.js  
 **Duration:** March 1st - December 31st
