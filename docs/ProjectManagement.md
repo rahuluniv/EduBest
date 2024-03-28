@@ -2,6 +2,8 @@
 ## Mind Map
 
 ![MindMap](mindmap.png)
+![gnattbyrole](gnatt_role.png)
+![gnatttimline](gnatt.png)
 ## Project Plan
 
 ### Sprint 1: Backend Setup and User Authentication (Mar 1 - Mar 31)
