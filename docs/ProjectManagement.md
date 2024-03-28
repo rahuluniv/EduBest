@@ -63,9 +63,6 @@
 *Note: This sprint focuses on enhancing the platform's capabilities for managing skills and tests, which are essential for providing relevant and effective assessments to users.*
 
 ---
-Certainly, let's continue detailing the remaining sprints:
-
----
 
 ### Sprint 4: Educator Portal and Assessment Creation (Jun 1 - Jun 30)
 
@@ -122,9 +119,6 @@ Certainly, let's continue detailing the remaining sprints:
 
 *Note: This sprint focuses on providing educators with robust tools for tracking student progress and performance, enabling them to make data-driven decisions to enhance teaching and learning.*
 
----
-
-Certainly, let's proceed with detailing the remaining sprints:
 
 ---
 
@@ -183,9 +177,6 @@ Certainly, let's proceed with detailing the remaining sprints:
 
 *Note: This sprint focuses on optimizing the user interface and experience based on feedback, automating DevOps tasks for efficiency, and preparing the platform for scalability to accommodate future growth.*
 
----
-
-Certainly, let's proceed with detailing the final sprints:
 
 ---
 
