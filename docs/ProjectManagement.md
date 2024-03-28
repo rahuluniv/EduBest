@@ -311,9 +311,6 @@
     - Total Story Points: 21
 
 ---
-|                                                |                  |                  |              |                      |
-|------------------------------------------------|------------------|------------------|--------------|----------------------|
-| Address any remaining tasks and cleanup        | 6                | Development Team| Jan 15       | 60                   |
 
 ### Total Estimated Development Hours per Sprint:
 
