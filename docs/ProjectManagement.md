@@ -412,4 +412,23 @@ Enhance the RCAT platform with advanced functionalities including progress track
 **Note:** Following the November milestone, the project will enter its final phase focused on polishing, documentation, and knowledge transfer to ensure a smooth handover and prepare for future enhancements.
 
 ---
+To accommodate the need for a frontend developer during the frontend development phase, we can adjust the project plan by including a section for requesting additional resources. This section will highlight the necessity for additional frontend development support for two months, emphasizing the importance of this role in achieving the project milestones effectively. Let's add this section right before the **Project Milestone Document** to ensure it's considered in the resource planning and allocation process.
 
+---
+
+### Additional Resource Request
+
+#### Request for Frontend Developer Assistance
+
+**Name:** Software Team  
+**Request:** Due to the comprehensive scope of frontend development tasks outlined in the project plan, an additional frontend developer is required to support the project for a duration of two months. This support is specifically needed during the months dedicated to the development of the Educator Portal and Assessment Creation (Sprint 4: Jun 1 - Jun 30) and the Student Portal and Test Completion (Sprint 5: Jul 1 - Jul 31).
+
+**Justification:** The complexity and volume of frontend tasks during these sprints necessitate expert assistance to ensure the timely and quality completion of deliverables. The additional frontend developer will contribute to:
+
+- Developing and refining the user interfaces for the Educator and Student Portals.
+- Implementing interactive and user-friendly features for assessment creation, test customization, and test completion.
+- Ensuring the application's responsiveness and accessibility across different devices and platforms.
+
+**Outcome:** Securing an additional frontend developer for this period will significantly enhance our team's capability to deliver a high-quality, user-centric frontend. This will not only ensure that the project remains on schedule but will also contribute to an engaging and efficient user experience, ultimately supporting the project's success.
+
+---
